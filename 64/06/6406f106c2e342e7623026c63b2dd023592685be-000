@@ -1,0 +1,11 @@
+# The Witcher 3 art direction
+
+Le fond actuel est `assets/background-02.png`, à sa taille native de 1672 × 941 px.
+
+Le titre est rendu directement dans le HTML avec Anthropic Serif Regular, sans PNG de texte ni mise à l'échelle. Il est calé à x 535, y 470, avec une taille de 42 px et un espacement de 10,8 px.
+
+Le titre se pose directement sur l'image. Aucun rectangle, voile ni flou ne reste entre le texte et le fond.
+
+`img-1.html` garde le fond entier. `img-2.html` garde le titre net et place le fond à 50 % d’opacité sur blanc.
+
+Lancer `python3 build.py` pour régénérer les deux PNG.

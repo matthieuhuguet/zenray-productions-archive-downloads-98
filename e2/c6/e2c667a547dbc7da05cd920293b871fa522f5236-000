@@ -1,0 +1,29 @@
+{
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "title": {
+    "text": "ENHANCED COMBAT",
+    "font_file": "file:///Users/zenray/Library/Fonts/AnthropicSerif-Regular.ttf",
+    "font_size": 42,
+    "letter_spacing": 10.8,
+    "color": "#f0ede5",
+    "shadow": "0 1px 2px rgba(0,0,0,.46)",
+    "target_x": 535,
+    "target_y": 470,
+    "css_top": 465
+  },
+  "variants": [
+    {
+      "id": "img-1",
+      "background_opacity": 1,
+      "output": "out/witcher3-enhanced-combat.png"
+    },
+    {
+      "id": "img-2",
+      "background_opacity": 0.5,
+      "output": "out/witcher3-enhanced-combat-50.png"
+    }
+  ]
+}
